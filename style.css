@@ -1,0 +1,16 @@
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav > div {
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
