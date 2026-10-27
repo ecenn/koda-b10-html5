@@ -10,6 +10,7 @@ nav {
 
 nav ul {
     text-align: center;
+    background-color: aqua;
 }
 
 nav ul li {
@@ -71,23 +72,35 @@ footer div {
 
 .footkiri {
     text-align: left;
-    background-color: blue;
-    width: 35vw;
+    width: 30vw;
+    height: 5vh;
+    background-color: aqua;
 }
 
 .footkanan {
     text-align: right;
-    background-color: red;
-    width: 35vw;
+    width: 30vw;
+    height: 5vh;
+    background-color: aqua;
 }
 
-.foottengah img{
+.foottengah{
     width: 30vw;
-    height: auto;
+    height: 5vh;
+    object-fit: contain;
+    background-color: aqua;
 }
 
 footer div ul li {
     display: inline-block;
     margin: 5px;
     padding: 5px;
+}
+
+#wa-icon {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 75px;
+    height: 75px;
 }
