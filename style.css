@@ -1,16 +1,58 @@
-nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-nav > div {
-    display: inline-block;
-    position: relative;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: small;
+body {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
+nav {
+    height: 10%;
+    width: 100%;
+}
 
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+header div {
+    width: 100%;
+}
+
+header div img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 75%;
+}
+
+header div:nth-child(2) {
+    padding-top: 25%;
+}
+
+header div h1 {
+    color: beige;
+    font-weight: lighter;
+    font-size: 600%;
+    margin: 0;
+    margin-left: 10%;
+}
+
+header div h1:first-child {
+    color: black;
+}
+
+header div:last-child {
+    background-color: white;
+    width: 15%;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+header div p {
+    display: inline-block;
+    margin-left: 20px;
+}
