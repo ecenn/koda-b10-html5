@@ -10,7 +10,7 @@ nav {
 
 nav ul {
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 nav ul li {
@@ -74,21 +74,21 @@ footer div {
     text-align: left;
     width: 30vw;
     height: 5vh;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .footkanan {
     text-align: right;
     width: 30vw;
     height: 5vh;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .foottengah{
     width: 30vw;
     height: 5vh;
     object-fit: contain;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 footer div ul li {
