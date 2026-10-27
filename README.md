@@ -8,8 +8,8 @@ Membuat landing page dengan inspirasi yang didapat dari pinterest dan menambahka
 
 ![landing page idea](inspo.jpg)
 
-## Screenshot Clone Landing Page
+## Screenshot Clone Landing Page (*on progess*)
 
 [Link to Code](index.html)
 
-![]()
+![current progress](current-progress.png)
