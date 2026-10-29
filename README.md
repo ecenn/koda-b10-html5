@@ -6,10 +6,10 @@ Membuat landing page dengan inspirasi yang didapat dari pinterest dan menambahka
 
 [Link to Pinterest](https://id.pinterest.com/pin/1132936850041974499/)
 
-![landing page idea](inspo.jpg)
+![landing page idea](assets/inspo.jpg)
 
 ## Screenshot Clone Landing Page (*on progess*)
 
 [Link to Code](index.html)
 
-![current progress](current-progress.png)
+![current progress](assets/current-progress.png)
