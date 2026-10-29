@@ -65,6 +65,21 @@ header div p {
 
 /* for section 1-4 */
 
+section {
+    width:100vw;
+    height: auto;
+    background: #000;
+}
+
+section div {
+    display: inline-block;
+}
+
+[id=section-gambar]
+[id=section-desc]
+
+/*  */
+
 footer div {
     position: relative;
     display: inline-block;
