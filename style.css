@@ -72,3 +72,11 @@ footer {
     display: flex;
     gap: 20px;
 }
+
+.wa-icon {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
