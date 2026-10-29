@@ -26,6 +26,7 @@ header {
     flex-direction: column;
     width: 100%;
     height: 910px;
+    margin-bottom: 32px;
 }
 .hero-img img {
     position: absolute;
@@ -79,4 +80,68 @@ footer {
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 10px 0;
+}
+section > .container {
+    width: 80%;
+    max-height: 100%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+.container > .sect-img {
+    display: flex;
+    width: 68%;
+    height: 640px;
+}
+.container > .sect-img > img {
+    display: flex;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 40px;
+}
+.container > .sect-desc {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 5px;
+}
+.container > .sect-desc > h1, h2, p {
+    display: flex;
+    width: 80%;
+    font-weight: normal;
+}
+.container > .sect-desc > h1 {
+    margin: 0 0 24px;
+    font-size: 360%;
+}
+.container > .sect-desc > h2 {
+    margin: 0;
+}
+.container > .sect-desc > p {
+    margin: 24px 0 0;
+}
+
+.other-items {
+    display: flex;
+    width: 80%;
+    max-height: 100%;
+    margin: 0 10%;
+    justify-content: space-evenly;
+}
+
+.other-items > img {
+    max-width: 100%;
+    height: auto;
 }
